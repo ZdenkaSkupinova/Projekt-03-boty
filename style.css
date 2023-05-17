@@ -31,4 +31,126 @@ body {
 h1 {
     font-weight: 500;
 }
+.zbozi {
+    display: flex;
+    height: 440px;
+    width: 670px;
+    margin: 30px 80px 30px 80px;
+    border-radius: 15px 15px;
+    box-shadow: #f5f5f5 10px 16px 25px;
+}
+.vizual {
+    display: block;
+    width: 335px;
+    background: linear-gradient(#06d7c1, #50cc49);
+    border-radius: 10px 0 0 10px;
+      }
+.logo {
+    width: 65px;
+    height: 24px;
+    padding: 30px;
+}
+.slogan {
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin: 0;
+    color: white;
+}
+.bota {
+    position: relative;
+    right: 80px;
+}
+.cenovka {
+ display: flex; 
+ flex-direction: column;
+ align-items: flex-end;
+ padding: 0 30px 30px 0;
+ position: relative;
+ bottom: 60px;
+}
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+}
+.zaruka {
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
 
+.detaily {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 30px;
+}
+.nazev {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+.produkt {
+    font-size: 14px;
+    color: #959595;
+}
+.popis {
+    font-size: 14px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid;
+    border-bottom-color: #06d7c1;
+}
+.parametr {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.velikosti {
+    list-style-type: none; 
+    margin: 0 0 80px 0;
+    padding-left: 0;   
+}
+.velikosti li {
+    display: inline-block;
+    margin: 0 5px 0 5px; 
+}
+.velikosti a {
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 0;
+    padding: 5px 5px; 
+}
+.vybrana {
+    color: #f15f42;
+    border: 1px solid #f15f42;
+    border-radius: 50%; 
+}
+.vybrana a {
+    color: #f15f42;
+}
+a:hover,
+a:focus {
+    color: #f15f42;
+    border: 1.5px solid #f15f42;
+    border-radius: 50%; 
+}
+
+.tlacitko {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #f15f42;
+    padding: 10px 25px;
+    border-radius: 6px;
+}
+
+.akce a:hover,
+.akce a:focus {
+    color: white;
+    background-color: brown;
+    border-radius: 6px;
+}
