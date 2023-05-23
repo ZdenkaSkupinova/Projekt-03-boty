@@ -35,13 +35,14 @@ h1 {
     display: flex;
     height: 440px;
     width: 670px;
-    margin: 30px 80px 30px 80px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 15px 15px;
     box-shadow: #f5f5f5 10px 16px 25px;
 }
 .vizual {
     display: block;
-    width: 335px;
+    width: 50%;
     background: linear-gradient(#06d7c1, #50cc49);
     border-radius: 10px 0 0 10px;
       }
@@ -80,7 +81,6 @@ h1 {
     font-weight: 400;
     color: white;
 }
-
 .detaily {
     display: flex;
     flex-direction: column;
@@ -110,37 +110,37 @@ h1 {
 }
 .velikosti {
     list-style-type: none; 
-    margin: 0 0 80px 0;
-    padding-left: 0;   
+    margin: 0 0 90px 0;   
 }
-.velikosti li {
-    display: inline-block;
-    margin: 0 5px 0 5px; 
+ul {
+    display: flex;
+    justify-content: center;
+    margin: 0 5px 0 5px;
+    padding: 0;
 }
-.velikosti a {
-    display: inline-block;
+li {
+    padding: 5px 5px;
+ }
+a {
     font-size: 14px;
     text-decoration: none;
     margin-top: 0;
+    margin: 1px 1px;
     padding: 5px 5px; 
-}
-.vybrana {
-    color: #f15f42;
-    border: 1px solid #f15f42;
-    border-radius: 50%; 
 }
 .vybrana a {
     color: #f15f42;
+    outline: 1px solid #f15f42;
+    border-radius: 50%; 
 }
 a:hover,
 a:focus {
     color: #f15f42;
-    border: 1.5px solid #f15f42;
+    outline: 1px solid #f15f42;
     border-radius: 50%; 
 }
-
 .tlacitko {
-    display: inline-block;
+    text-transform: uppercase;
     text-decoration: none;
     color: white;
     background-color: #f15f42;
