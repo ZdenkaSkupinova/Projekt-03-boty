@@ -112,11 +112,9 @@ h1 {
     list-style-type: none; 
     margin: 0 0 90px 0;   
 }
-ul {
-    display: flex;
-    justify-content: center;
-    margin: 0 5px 0 5px;
-    padding: 0;
+.velikosti li {
+    display: inline-block;
+    margin: 0 5px 0 5px; 
 }
 li {
     padding: 5px 5px;
@@ -140,7 +138,7 @@ a:focus {
     border-radius: 50%; 
 }
 .tlacitko {
-    text-transform: uppercase;
+    display: inline-block;
     text-decoration: none;
     color: white;
     background-color: #f15f42;
